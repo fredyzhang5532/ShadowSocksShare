@@ -33,6 +33,9 @@
     </table>
 </center>
 
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
+
 <center><a href="https://heroku.com/deploy?template=https://github.com/the0demiurge/ShadowSocksShare/tree/master"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a></center>
 
 ## 简介：
@@ -77,6 +80,15 @@
 
 ## 用法：
 
+### 配置：
+
+配置需要运行前设置好环境变量。
+
+- `MODE`: 设置为 `strict` 后开启严格模式，将会检测robots.txt，如果不允许则不会进行爬虫
+- `PORT`: 服务器运行端口
+
+### 运行：
+
 本地运行：
 
 `python manage.py runserver`
@@ -90,7 +102,7 @@
 
 点击[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/the0demiurge/ShadowSocksShare-OpenShift/tree/master)一键部署
 
-或者参考[**这个网站的教程**](https://hoodiearon.github.io/fq-book/#/web/heroku-deploy)。
+或者参考[**这个网站的教程**](https://hoochanlon.github.io/fq-book/#/web/heroku-deploy)。
 
 或者：
 
